@@ -1,0 +1,61 @@
+@font-face {
+  font-family: police;
+  src: url("../fonts/Chocolate\ Covered\ Raindrops.ttf");
+}
+body {
+  background-color: rgb(138, 43, 226);
+  font-family: police;
+  font-size: 40px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: police;
+  font-size: 60px;
+  color: red;
+}
+.carre {
+  width: 100px;
+  height: 100px;
+  border: solid rgb(255, 255, 255);
+  border-radius: 25%;
+  float: left;
+  margin: 10px;
+}
+
+.carreT {
+  width: 100px;
+  height: 100px;
+  border: solid rgb(255, 255, 255);
+  float: left;
+  margin: 10px;
+  border-radius: 25%;
+}
+
+#carreContainer {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+.bouton {
+  display: block;
+  background-color: #aaa9a100;
+  border-radius: 10px;
+  border: 4px solid #d5d4ce00;
+  color: #000000;
+  text-align: center;
+  font-family: choc;
+  font-size: 40px;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+  align-items: center;
+  font-family: police;
+}
